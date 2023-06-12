@@ -1,0 +1,30 @@
+@font-face {
+    font-family: poppins;
+    src: url(../font/Poppins-Regular.ttf);
+}
+$main-color:#FFF;
+$btn-color:#48924F;
+$h2-color:#828282;
+$h3-color:#0D4D14;
+$contact-color:#9FDEA9;
+$footer-bg-color:#324B29;
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+html{
+    font-size: 62.5%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+button{
+    border: none;
+    background: none;
+}
